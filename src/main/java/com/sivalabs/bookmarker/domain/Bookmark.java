@@ -9,7 +9,7 @@ import javax.persistence.*;
 import java.time.Instant;
 
 @Entity
-@Table
+@Table(name = "bookmarks")
 @Getter
 @Setter
 @NoArgsConstructor

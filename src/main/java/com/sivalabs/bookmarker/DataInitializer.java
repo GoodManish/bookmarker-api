@@ -15,7 +15,7 @@ public class DataInitializer implements CommandLineRunner {
     private final BookmarkRepository bookmarkRepository;
     @Override
     public void run(String... args) throws Exception {
-        bookmarkRepository.save(new Bookmark(null, "Sivalabs", "https://sivalabs.in", Instant.now()));
+/*        bookmarkRepository.save(new Bookmark(null, "Sivalabs", "https://sivalabs.in", Instant.now()));
         bookmarkRepository.save(new Bookmark(null, "SpringBlog", "https://spring.io/blog", Instant.now()));
         bookmarkRepository.save(new Bookmark(null, "Quarkus", "https://quarkus.io", Instant.now()));
         bookmarkRepository.save(new Bookmark(null, "Micronaut", "https://micronaut.io", Instant.now()));
@@ -29,6 +29,6 @@ public class DataInitializer implements CommandLineRunner {
         bookmarkRepository.save(new Bookmark(null, "Macrobehler", "https://macrobehler.com", Instant.now()));
         bookmarkRepository.save(new Bookmark(null, "Bealdung", "https://bealdung.com", Instant.now()));
         bookmarkRepository.save(new Bookmark(null, "devglan", "https://devglan.com", Instant.now()));
-        bookmarkRepository.save(new Bookmark(null, "linuxize", "https://linuxsize.com", Instant.now()));
+        bookmarkRepository.save(new Bookmark(null, "linuxize", "https://linuxsize.com", Instant.now()));        */
     }
 }
